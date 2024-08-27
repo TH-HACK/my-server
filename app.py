@@ -2,7 +2,7 @@ from flask import Flask, request
 import telebot
 
 API_TOKEN = "7517544528:AAEwE_8hpzGDqaQyaNSBlRUHi0CZ-ptGn_o"  # ضع هنا توكن البوت الخاص بك
-WEBHOOK_URL = "https://my-server-lilac.vercel.app/"  # ضع هنا رابط الويبهوك الخاص بك
+WEBHOOK_URL = "https://my-server-lilac.vercel.app/get-url"  # ضع هنا رابط الويبهوك الخاص بك
 
 bot = telebot.TeleBot(API_TOKEN)
 app = Flask(__name__)
